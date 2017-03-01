@@ -48,11 +48,8 @@ ActiveRecord::Schema.define(version: 20170301055002) do
     t.float    "longitude"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
-<<<<<<<<< saved version
     t.text     "introduction"
-=========
     
->>>>>>>>> local version
   end
 
   create_table "reviews", force: :cascade do |t|
