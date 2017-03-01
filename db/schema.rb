@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170301050546) do
+ActiveRecord::Schema.define(version: 20170301055002) do
 
   create_table "genres", force: :cascade do |t|
     t.string   "name"
@@ -48,6 +48,11 @@ ActiveRecord::Schema.define(version: 20170301050546) do
     t.float    "longitude"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
+<<<<<<<<< saved version
+    t.text     "introduction"
+=========
+    
+>>>>>>>>> local version
   end
 
   create_table "reviews", force: :cascade do |t|
