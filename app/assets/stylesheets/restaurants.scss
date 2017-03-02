@@ -57,6 +57,10 @@ wrapper.restaurant_index {
   }
 
   .restaurant_list {
+    a {
+      text-decoration: none;
+    }
+  
     .per_restaurant {
       border: 1px solid;
       border-radius: 5px;
@@ -85,7 +89,14 @@ wrapper.restaurant_index {
           }
         }
         .genres {
-
+        }
+        .introduction {
+            color: black;
+            width: 400px;
+            font-weight: bold;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
       }
     }
